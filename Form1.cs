@@ -3,13 +3,16 @@ using System.Drawing;
 
 namespace Sokoban_Game
 {
+    //參考youtube影片<【2022iThome鐵人賽-Day22】視窗程式設計-用二維 Array 建立推箱子地圖 | Coding19 | C# Windows Form > 的地圖、移動邏輯
+    //使用ChatGPT Dedug 以及 架構程式
+    //地圖圖片素材皆使用PhotoShop製作
     public partial class Form1 : Form
     {
         private List<int[,]> maps = new List<int[,]>();//地圖清單
-        private List<Point> playerPoints = new List<Point>();
+        private List<Point> playerPoints = new List<Point>();//玩家座標清單
         public int currentMapIndex = 0;//當前地圖的索引值
-        int WD = 382 / 10;
-        int HD = 354 / 10;
+        int WD = 382 / 10; //水平座標每一格的大小
+        int HD = 354 / 10; //垂直座標每一格的大小
 
         //玩家圖像
         private Image playerImageLeft;
@@ -41,7 +44,7 @@ namespace Sokoban_Game
         private void Form1_Load(object sender, EventArgs e)
         {
             this.SetBounds(0, 0, 400, 400); //設定視窗大小
-            UpdateCurrentMap();
+            UpdateCurrentMap();//更新地圖元素
         }
         private void InitializeMaps() //初始化地圖
         {
@@ -102,6 +105,7 @@ namespace Sokoban_Game
             pictureBox_map.Controls.Add(pictureBox_target4);
             pictureBox_target4.BackColor = Color.Transparent;
         }
+        //初始化玩家所在位置
         private void InitializePlayerPositions()
         {
             playerPoints.Add(new Point(4, 5));
@@ -112,7 +116,7 @@ namespace Sokoban_Game
         private void UpdateCurrentMap()
         {
             Point currentPlayer1 = playerPoints[currentMapIndex];
-            if (currentMapIndex == 0)
+            if (currentMapIndex == 0)//map1
             {
                 pictureBox_player.Location = new Point(currentPlayer1.X * WD, currentPlayer1.Y * HD);
                 pictureBox_box1.Location = new Point(5 * WD, 3 * HD);
@@ -124,7 +128,7 @@ namespace Sokoban_Game
                 pictureBox_target3.Location = new Point(4 * WD, 7 * HD);
                 pictureBox_target4.Location = new Point(2 * WD, 4 * HD);
             }
-            if (currentMapIndex == 1)
+            if (currentMapIndex == 1)//map2
             {
                 pictureBox_player.Location = new Point(currentPlayer1.X * WD, currentPlayer1.Y * HD);
                 pictureBox_box1.Location = new Point(2 * WD, 2 * HD);
@@ -138,7 +142,7 @@ namespace Sokoban_Game
                 pictureBox_target4.Visible = false;
                 pictureBox_target4.Location = new Point(0 * WD, 0 * HD);
             }
-            if (currentMapIndex == 2)
+            if (currentMapIndex == 2)//map3
             {
                 pictureBox_player.Location = new Point(currentPlayer1.X * WD, currentPlayer1.Y * HD);
                 pictureBox_box1.Location = new Point(2 * WD, 3 * HD);
@@ -156,9 +160,10 @@ namespace Sokoban_Game
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
             this.Refresh();
-            CheckLevelCompletion();
-            MovePlayer(e.KeyCode);
+            CheckLevelCompletion();//判斷是否通關
+            MovePlayer(e.KeyCode);//移動邏輯
         }
+        //移動邏輯方法
         private void MovePlayer(Keys key)
         {
             Point currentPlayer = playerPoints[currentMapIndex];
@@ -313,6 +318,7 @@ namespace Sokoban_Game
                 }
             }
         }
+        //判斷是否通關
         private void CheckLevelCompletion()
         {
             if (currentMapIndex == 0)
