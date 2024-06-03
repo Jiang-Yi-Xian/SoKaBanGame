@@ -63,9 +63,9 @@ namespace Sokoban_Game.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
-        internal static System.Drawing.Bitmap 地圖Level_1 {
+        internal static System.Drawing.Bitmap map1 {
             get {
-                object obj = ResourceManager.GetObject("地圖Level_1", resourceCulture);
+                object obj = ResourceManager.GetObject("map1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace Sokoban_Game.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
-        internal static System.Drawing.Bitmap 地圖Level_2 {
+        internal static System.Drawing.Bitmap map2 {
             get {
-                object obj = ResourceManager.GetObject("地圖Level_2", resourceCulture);
+                object obj = ResourceManager.GetObject("map2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace Sokoban_Game.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
-        internal static System.Drawing.Bitmap 地圖Level_3 {
+        internal static System.Drawing.Bitmap map3 {
             get {
-                object obj = ResourceManager.GetObject("地圖Level_3", resourceCulture);
+                object obj = ResourceManager.GetObject("map3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace Sokoban_Game.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
-        internal static System.Drawing.Bitmap 玩家右 {
+        internal static System.Drawing.Bitmap 玩家前 {
             get {
-                object obj = ResourceManager.GetObject("玩家右", resourceCulture);
+                object obj = ResourceManager.GetObject("玩家前", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace Sokoban_Game.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
-        internal static System.Drawing.Bitmap 玩家左 {
+        internal static System.Drawing.Bitmap 玩家右邊 {
             get {
-                object obj = ResourceManager.GetObject("玩家左", resourceCulture);
+                object obj = ResourceManager.GetObject("玩家右邊", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace Sokoban_Game.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
-        internal static System.Drawing.Bitmap 玩家正面 {
+        internal static System.Drawing.Bitmap 玩家左邊 {
             get {
-                object obj = ResourceManager.GetObject("玩家正面", resourceCulture);
+                object obj = ResourceManager.GetObject("玩家左邊", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace Sokoban_Game.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
-        internal static System.Drawing.Bitmap 玩家背面 {
+        internal static System.Drawing.Bitmap 玩家後 {
             get {
-                object obj = ResourceManager.GetObject("玩家背面", resourceCulture);
+                object obj = ResourceManager.GetObject("玩家後", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +133,9 @@ namespace Sokoban_Game.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
-        internal static System.Drawing.Bitmap 目標點 {
+        internal static System.Drawing.Bitmap 目標點V2 {
             get {
-                object obj = ResourceManager.GetObject("目標點", resourceCulture);
+                object obj = ResourceManager.GetObject("目標點V2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +143,9 @@ namespace Sokoban_Game.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
-        internal static System.Drawing.Bitmap 箱子 {
+        internal static System.Drawing.Bitmap 箱子V2 {
             get {
-                object obj = ResourceManager.GetObject("箱子", resourceCulture);
+                object obj = ResourceManager.GetObject("箱子V2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

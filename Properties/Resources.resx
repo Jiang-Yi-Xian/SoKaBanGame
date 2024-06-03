@@ -118,31 +118,31 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="地圖Level_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\地圖Level 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="map1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\map1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="地圖Level_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\地圖Level 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="map2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\map2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="地圖Level_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\地圖Level 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="map3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\map3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="玩家右" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\玩家右.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="玩家前" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\玩家前.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="玩家左" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\玩家左.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="玩家右邊" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\玩家右邊.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="玩家正面" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\玩家正面.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="玩家左邊" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\玩家左邊.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="玩家背面" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\玩家背面.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="玩家後" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\玩家後.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="目標點" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\目標點.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="目標點V2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\目標點V2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="箱子" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\箱子.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="箱子V2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\箱子V2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

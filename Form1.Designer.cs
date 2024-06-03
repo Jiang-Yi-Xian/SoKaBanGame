@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             pictureBox_map = new PictureBox();
             pictureBox_player = new PictureBox();
             pictureBox_target2 = new PictureBox();
@@ -56,77 +55,69 @@
             // 
             // pictureBox_map
             // 
-            pictureBox_map.Image = Properties.Resources.地圖Level_1;
+            pictureBox_map.Image = Properties.Resources.map1;
             pictureBox_map.Location = new Point(0, 0);
-            pictureBox_map.Margin = new Padding(2);
             pictureBox_map.Name = "pictureBox_map";
-            pictureBox_map.Size = new Size(311, 316);
+            pictureBox_map.Size = new Size(382, 354);
             pictureBox_map.TabIndex = 0;
             pictureBox_map.TabStop = false;
             // 
             // pictureBox_player
             // 
             pictureBox_player.BackColor = SystemColors.Control;
-            pictureBox_player.Image = (Image)resources.GetObject("pictureBox_player.Image");
-            pictureBox_player.Location = new Point(124, 158);
-            pictureBox_player.Margin = new Padding(2);
+            pictureBox_player.Image = Properties.Resources.玩家右邊;
+            pictureBox_player.Location = new Point(152, 174);
             pictureBox_player.Name = "pictureBox_player";
-            pictureBox_player.Size = new Size(31, 32);
+            pictureBox_player.Size = new Size(38, 35);
             pictureBox_player.TabIndex = 1;
             pictureBox_player.TabStop = false;
-            pictureBox_player.Paint += MainForm_Paint;
             // 
             // pictureBox_target2
             // 
             pictureBox_target2.BackColor = SystemColors.Control;
-            pictureBox_target2.Image = Properties.Resources.目標點;
-            pictureBox_target2.Location = new Point(218, 158);
-            pictureBox_target2.Margin = new Padding(2);
+            pictureBox_target2.Image = Properties.Resources.目標點V2;
+            pictureBox_target2.Location = new Point(266, 175);
             pictureBox_target2.Name = "pictureBox_target2";
-            pictureBox_target2.Size = new Size(31, 32);
+            pictureBox_target2.Size = new Size(38, 35);
             pictureBox_target2.TabIndex = 2;
             pictureBox_target2.TabStop = false;
             // 
             // pictureBox_box1
             // 
-            pictureBox_box1.Image = Properties.Resources.箱子;
-            pictureBox_box1.Location = new Point(156, 95);
-            pictureBox_box1.Margin = new Padding(2);
+            pictureBox_box1.Image = Properties.Resources.箱子V2;
+            pictureBox_box1.Location = new Point(190, 105);
             pictureBox_box1.Name = "pictureBox_box1";
-            pictureBox_box1.Size = new Size(31, 32);
+            pictureBox_box1.Size = new Size(38, 35);
             pictureBox_box1.TabIndex = 3;
             pictureBox_box1.TabStop = false;
             pictureBox_box1.Tag = "box";
             // 
             // pictureBox_box2
             // 
-            pictureBox_box2.Image = Properties.Resources.箱子;
-            pictureBox_box2.Location = new Point(187, 158);
-            pictureBox_box2.Margin = new Padding(2);
+            pictureBox_box2.Image = Properties.Resources.箱子V2;
+            pictureBox_box2.Location = new Point(228, 175);
             pictureBox_box2.Name = "pictureBox_box2";
-            pictureBox_box2.Size = new Size(31, 32);
+            pictureBox_box2.Size = new Size(38, 35);
             pictureBox_box2.TabIndex = 4;
             pictureBox_box2.TabStop = false;
             pictureBox_box2.Tag = "box";
             // 
             // pictureBox_box4
             // 
-            pictureBox_box4.Image = Properties.Resources.箱子;
-            pictureBox_box4.Location = new Point(93, 126);
-            pictureBox_box4.Margin = new Padding(2);
+            pictureBox_box4.Image = Properties.Resources.箱子V2;
+            pictureBox_box4.Location = new Point(114, 139);
             pictureBox_box4.Name = "pictureBox_box4";
-            pictureBox_box4.Size = new Size(31, 32);
+            pictureBox_box4.Size = new Size(38, 35);
             pictureBox_box4.TabIndex = 5;
             pictureBox_box4.TabStop = false;
             pictureBox_box4.Tag = "box";
             // 
             // pictureBox_box3
             // 
-            pictureBox_box3.Image = Properties.Resources.箱子;
-            pictureBox_box3.Location = new Point(124, 189);
-            pictureBox_box3.Margin = new Padding(2);
+            pictureBox_box3.Image = Properties.Resources.箱子V2;
+            pictureBox_box3.Location = new Point(152, 209);
             pictureBox_box3.Name = "pictureBox_box3";
-            pictureBox_box3.Size = new Size(31, 32);
+            pictureBox_box3.Size = new Size(38, 35);
             pictureBox_box3.TabIndex = 6;
             pictureBox_box3.TabStop = false;
             pictureBox_box3.Tag = "box";
@@ -134,50 +125,48 @@
             // pictureBox_target1
             // 
             pictureBox_target1.BackColor = SystemColors.Control;
-            pictureBox_target1.Image = Properties.Resources.目標點;
-            pictureBox_target1.Location = new Point(156, 64);
-            pictureBox_target1.Margin = new Padding(2);
+            pictureBox_target1.Image = Properties.Resources.目標點V2;
+            pictureBox_target1.Location = new Point(190, 70);
             pictureBox_target1.Name = "pictureBox_target1";
-            pictureBox_target1.Size = new Size(31, 32);
+            pictureBox_target1.Size = new Size(38, 35);
             pictureBox_target1.TabIndex = 7;
             pictureBox_target1.TabStop = false;
             // 
             // pictureBox_target4
             // 
             pictureBox_target4.BackColor = SystemColors.Control;
-            pictureBox_target4.Image = Properties.Resources.目標點;
-            pictureBox_target4.Location = new Point(62, 126);
-            pictureBox_target4.Margin = new Padding(2);
+            pictureBox_target4.Image = Properties.Resources.目標點V2;
+            pictureBox_target4.Location = new Point(76, 139);
             pictureBox_target4.Name = "pictureBox_target4";
-            pictureBox_target4.Size = new Size(31, 32);
+            pictureBox_target4.Size = new Size(38, 35);
             pictureBox_target4.TabIndex = 8;
             pictureBox_target4.TabStop = false;
             // 
             // pictureBox_target3
             // 
             pictureBox_target3.BackColor = SystemColors.Control;
-            pictureBox_target3.Image = Properties.Resources.目標點;
-            pictureBox_target3.Location = new Point(124, 221);
-            pictureBox_target3.Margin = new Padding(2);
+            pictureBox_target3.Image = Properties.Resources.目標點V2;
+            pictureBox_target3.Location = new Point(152, 244);
             pictureBox_target3.Name = "pictureBox_target3";
-            pictureBox_target3.Size = new Size(31, 32);
+            pictureBox_target3.Size = new Size(38, 35);
             pictureBox_target3.TabIndex = 9;
             pictureBox_target3.TabStop = false;
             // 
             // lblTime
             // 
             lblTime.AutoSize = true;
-            lblTime.Location = new Point(257, 9);
+            lblTime.Location = new Point(330, 11);
+            lblTime.Margin = new Padding(4, 0, 4, 0);
             lblTime.Name = "lblTime";
-            lblTime.Size = new Size(35, 15);
+            lblTime.Size = new Size(43, 19);
             lblTime.TabIndex = 10;
             lblTime.Text = "Time";
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(9F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(311, 316);
+            ClientSize = new Size(382, 353);
             Controls.Add(lblTime);
             Controls.Add(pictureBox_target3);
             Controls.Add(pictureBox_target4);
@@ -189,7 +178,6 @@
             Controls.Add(pictureBox_target2);
             Controls.Add(pictureBox_player);
             Controls.Add(pictureBox_map);
-            Margin = new Padding(2);
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;
